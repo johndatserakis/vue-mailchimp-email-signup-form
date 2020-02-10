@@ -1,12 +1,12 @@
 // Import vue component
-import component from './vue-mailchimp-email-signup-form/VueMailchimpEmailSignupForm.vue';
+import VueMailchimpEmailSignupForm from './vue-mailchimp-email-signup-form/VueMailchimpEmailSignupForm.vue';
 
 // install function executed by Vue.use()
 export function install(Vue) {
 	if (install.installed) return;
 	install.installed = true;
-	Vue.component('VueMailchimpEmailSignupForm', component);
-}
+	Vue.component('VueMailchimpEmailSignupForm', VueMailchimpEmailSignupForm);
+}VueMailchimpEmailSignupForm
 
 // Create module definition for Vue.use()
 const plugin = {
@@ -25,8 +25,4 @@ if (GlobalVue) {
 }
 
 // To allow use as module (npm/webpack/etc.) export component
-export default component;
-
-// It's possible to expose named exports when writing components that can
-// also be used as directives, etc. - eg. import { RollupDemoDirective } from 'rollup-demo';
-// export const RollupDemoDirective = component;
+export { VueMailchimpEmailSignupForm };

@@ -285,7 +285,7 @@ __vue_render__._withStripped = true;
   
 
   
-  var component = normalizeComponent_1(
+  var VueMailchimpEmailSignupForm = normalizeComponent_1(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
     __vue_script__,
@@ -301,8 +301,8 @@ __vue_render__._withStripped = true;
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('VueMailchimpEmailSignupForm', component);
-} // Create module definition for Vue.use()
+  Vue.component('VueMailchimpEmailSignupForm', VueMailchimpEmailSignupForm);
+}
 
 var plugin = {
   install: install
@@ -319,9 +319,6 @@ if (typeof window !== 'undefined') {
 if (GlobalVue) {
   GlobalVue.use(plugin);
 } // To allow use as module (npm/webpack/etc.) export component
-// also be used as directives, etc. - eg. import { RollupDemoDirective } from 'rollup-demo';
-// export const RollupDemoDirective = component;
 
-export default component;
-export { install };
+export { VueMailchimpEmailSignupForm, install };
 //# sourceMappingURL=react-mailchimp-email-signup-form.es.js.map

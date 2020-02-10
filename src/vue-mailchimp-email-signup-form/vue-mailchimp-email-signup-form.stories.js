@@ -2,7 +2,7 @@
  // https://github.com/storybookjs/storybook/issues/4947#issuecomment-467096578
 
 import { withKnobs, text } from "@storybook/addon-knobs";
-import VueMailchimpEmailSignupForm from "../vue-mailchimp-email-signup-form/VueMailchimpEmailSignupForm.vue";
+import VueMailchimpEmailSignupForm from "./VueMailchimpEmailSignupForm.vue";
 
 export default {
   title: "VueMailchimpEmailSignupForm",
