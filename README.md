@@ -73,7 +73,7 @@ import "vue-mailchimp-email-signup-form/dist/vue-mailchimp-email-signup-form.css
 
 ```javascript
 // Here's an example of installing the component globally
-import VueMailchimpEmailSignupForm from "vue-mailchimp-email-signup-form";
+import { VueMailchimpEmailSignupForm } from "vue-mailchimp-email-signup-form";
 Vue.component("vue-mailchimp-email-signup-form", VueMailchimpEmailSignupForm);
 ```
 
@@ -88,7 +88,7 @@ Vue.component("vue-mailchimp-email-signup-form", VueMailchimpEmailSignupForm);
 
 ### About
 
-This is just a really simple component that let's you use MailChimp's awesome email signup form but with a little bit more of a modern style. Normally for a component this simple I wouldn't really think to share it, but it ends up being really nice to use in things like Gatsby sites where you really don't want to bring a backend anywhere near your site. It's super easy to use - just follow the steps below to generate the `url` prop you need to pass to the component.
+This is just a really simple component that let's you use MailChimp's awesome email signup form but with a little bit more of a modern style. Normally for a component this simple I wouldn't really think to share it, but it ends up being really nice to use in things like Gridsome sites where you really don't want to bring a backend anywhere near your site. It's super easy to use - just follow the steps below to generate the `url` prop you need to pass to the component.
 
 Go to your MailChimp admin. Click on `Create`, the `Signup Form`. Now, choose your audience, and stay on the `Embedded form` option and click `Begin`.
 
