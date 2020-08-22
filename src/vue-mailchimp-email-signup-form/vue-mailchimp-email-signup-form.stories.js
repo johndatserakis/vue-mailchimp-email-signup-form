@@ -32,7 +32,7 @@ export const Base = () => ({
   template: `
     <div>
       <vue-mailchimp-email-signup-form
-        :elementId="elementId"
+        :element-id="elementId"
         :url="url"
         :title="title"
         :subtitle="subtitle"

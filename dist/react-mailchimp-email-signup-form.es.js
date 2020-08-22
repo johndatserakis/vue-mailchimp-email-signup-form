@@ -55,9 +55,6 @@
 //
 //
 //
-//
-//
-//
 var script = {
   name: 'vue-mailchimp-email-signup-form',
   props: {
@@ -213,7 +210,6 @@ var __vue_render__ = function() {
                 staticClass: "subscribe-container__email",
                 attrs: {
                   type: "email",
-                  defaultValue: "",
                   name: "EMAIL",
                   id: _vm.elementId + "mce-EMAIL",
                   placeholder: "Your email address",
@@ -230,7 +226,6 @@ var __vue_render__ = function() {
                     staticClass: "subscribe-container__submit",
                     attrs: {
                       type: "submit",
-                      defaultValue: "Subscribe",
                       name: "subscribe",
                       id: _vm.elementId + "mc-embedded-subscribe"
                     }
@@ -261,8 +256,7 @@ var __vue_staticRenderFns__ = [
           attrs: {
             type: "text",
             name: "b_5f0b91c96bbdf35913a136639_ddfba3375e",
-            tabIndex: "-1",
-            defaultValue: ""
+            tabIndex: "-1"
           }
         })
       ]

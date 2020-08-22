@@ -23,7 +23,6 @@
 
           <input
             type="email"
-            defaultValue=""
             name="EMAIL"
             class="subscribe-container__email"
             :id="elementId + 'mce-EMAIL'"
@@ -38,13 +37,11 @@
               type="text"
               name="b_5f0b91c96bbdf35913a136639_ddfba3375e"
               tabIndex="-1"
-              defaultValue=""
             />
           </div>
           <div>
             <button
               type="submit"
-              defaultValue="Subscribe"
               name="subscribe"
               :id="elementId + 'mc-embedded-subscribe'"
               class="subscribe-container__submit"

@@ -79,8 +79,8 @@ Vue.component("vue-mailchimp-email-signup-form", VueMailchimpEmailSignupForm);
 
 ```html
 <vue-mailchimp-email-signup-form
-  :elementId="'first-email-signup-form'"
-  :url="'https://XX.us4.list-manage.com/subscribe/post?u=XXXXXXXXXXXXXX'"
+  :element-id="'first-email-signup-form'"
+  :url="'https://XX.us4.list-manage.com/subscribe/post?u=XXXXXXXXXXXXXX&id=XXXXXXXXXX'"
   :title="'Subscribe to the Newsletter'"
   :subtitle="'We take privacy seriously and we will never spam or sell your information.'"
 />
